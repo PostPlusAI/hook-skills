@@ -1,0 +1,32 @@
+{
+ "id": "postplus-hook-skills",
+ "name": "postplus-hook-skills",
+ "version": "0.1.0",
+ "description": "5 hook skills for short-form video routing, hook design, reference decoding, visual-hook design, and prompt preflight QA.",
+ "author": {
+  "name": "PostPlusAI",
+  "url": "https://github.com/PostPlusAI"
+ },
+ "homepage": "https://github.com/PostPlusAI/hook-skills",
+ "repository": "https://github.com/PostPlusAI/hook-skills",
+ "license": "Apache-2.0",
+ "keywords": [
+  "hook-design",
+  "short-form-video",
+  "ugc",
+  "tiktok",
+  "reels",
+  "creative-strategy",
+  "prompt-design",
+  "video-qa"
+ ],
+ "commands": [],
+ "skills": [
+  "./routing/pattern-router",
+  "./routing/hook-design",
+  "./routing/reference-decode",
+  "./creative/visual-hook",
+  "./qa/prompt-preflight-qa"
+ ],
+ "mcpServers": "./.mcp.json"
+}

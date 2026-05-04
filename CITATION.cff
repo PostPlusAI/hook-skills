@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Hook Skills
+message: Please cite this repository using the metadata below.
+type: software
+license: Apache-2.0
+version: 0.1.0
+repository-code: https://github.com/PostPlusAI/hook-skills
+url: https://github.com/PostPlusAI/hook-skills
+abstract: Open-source skill pack for routing, designing, decoding, and QA-ing short-form video hooks.
+authors:
+  - name: PostPlusAI

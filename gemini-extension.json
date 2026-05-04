@@ -1,0 +1,6 @@
+{
+ "name": "postplus-hook-skills",
+ "version": "0.1.0",
+ "description": "5 hook skills for short-form video routing, hook design, reference decoding, visual-hook design, and prompt preflight QA.",
+ "contextFileName": "CLAUDE.md"
+}

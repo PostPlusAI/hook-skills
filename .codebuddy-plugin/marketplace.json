@@ -1,0 +1,41 @@
+{
+ "name": "postplus-hook-skills",
+ "owner": {
+  "name": "PostPlusAI"
+ },
+ "description": "Open-source hook skills for short-form video routing, hook design, reference decoding, visual openings, and preflight QA",
+ "version": "0.1.0",
+ "plugins": [
+  {
+   "name": "postplus-hook-skills",
+   "source": "./",
+   "description": "5 hook skills for short-form video routing, hook design, reference decoding, visual-hook design, and prompt preflight QA.",
+   "version": "0.1.0",
+   "author": {
+    "name": "PostPlusAI"
+   },
+   "homepage": "https://github.com/PostPlusAI/hook-skills",
+   "repository": "https://github.com/PostPlusAI/hook-skills",
+   "license": "Apache-2.0",
+   "category": "marketing",
+   "keywords": [
+    "hook-design",
+    "short-form-video",
+    "ugc",
+    "tiktok",
+    "reels",
+    "creative-strategy",
+    "prompt-design",
+    "video-qa"
+   ],
+   "strict": false,
+   "skills": [
+    "./routing/pattern-router",
+    "./routing/hook-design",
+    "./routing/reference-decode",
+    "./creative/visual-hook",
+    "./qa/prompt-preflight-qa"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{
+ "id": "postplus-hook-skills",
+ "format": "claude-plugin",
+ "hostTargets": ["claude-code"]
+}

@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+dist/
+build/
+.cursor/
+.claude/
+.DS_Store
+node_modules/
+dist/
+build/
+.cursor/
+.claude/
