@@ -47,7 +47,7 @@ Keep the main `SKILL.md` concise.
 
 If extra detail is needed, prefer:
 
-- `examples.md`
+- `hook-examples.md`
 - `hook-principles.md`
 - a small reference file in the same skill directory
 

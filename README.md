@@ -103,18 +103,86 @@ Decode this benchmark into a reusable opening structure
 Review this prompt before we spend credits on generation
 ```
 
-## Operating Model
+## Pipeline
 
-These skills are meant to work as a compact chain:
+```
+                        ┌──────────────────────┐
+                        │     Raw input         │
+                        │  (brief / references  │
+                        │   / prompt draft)     │
+                        └──────────┬───────────┘
+                                   │
+                                   ▼
+                   ┌───────────────────────────┐
+                   │      pattern-router       │
+                   │                           │
+                   │  Routes the opening job:  │
+                   │  segment type, viewer     │
+                   │  question, product rule   │
+                   │                           │
+                   │  Output: Route Summary    │
+                   └──────────┬───────────────┘
+                              │
+                              ▼
+                   ┌───────────────────────────┐
+                   │       hook-design         │
+                   │                           │
+                   │  Locks mechanism +        │
+                   │  product timing. Reads    │
+                   │  hook-principles.md +     │
+                   │  hook-examples.md for     │
+                   │  reference.               │
+                   │                           │
+                   │  Output: Hook Brief       │
+                   └──────────┬───────────────┘
+                              │
+              ┌───────────────┴────────────────┐
+              │                                │
+              ▼                                ▼
+ ┌──────────────────────┐       ┌──────────────────────┐
+ │   reference-decode   │       │     visual-hook      │
+ │                      │       │                      │
+ │  When benchmarks or  │       │  When frame-one or   │
+ │  references exist:   │       │  first 3 s need      │
+ │  extract essence,    │       │  visual strength:    │
+ │  viewer question,    │       │  map hook mechanism  │
+ │  grammar, drift      │       │  to visual family    │
+ │  boundaries          │       │                      │
+ └──────────┬───────────┘       └──────────┬───────────┘
+            │                              │
+            └──────────────┬───────────────┘
+                           │
+                           ▼
+                  ┌──────────────────────────┐
+                  │   prompt-preflight-qa    │
+                  │                          │
+                  │  Pre-generation check:   │
+                  │  opening strength,       │
+                  │  product timing, drift   │
+                  │  risk, missing fields    │
+                  │                          │
+                  │  Output: Verdict + Fixes │
+                  └──────────┬───────────────┘
+                             │
+                             ▼
+                  ┌──────────────────────────┐
+                  │  Ready for image /       │
+                  │  video generation        │
+                  └──────────────────────────┘
+```
 
-1. `pattern-router`
-2. `hook-design`
-3. `reference-decode` or `visual-hook`
-4. `prompt-preflight-qa`
+**Reference files (in `routing/hook-design/`):**
 
-The goal is not to generate more hook ideas.
+```
+hook-principles.md    6 mechanism definitions, product reveal rules,
+                      common failure patterns
 
-The goal is to make the opening logic explicit enough that downstream prompt writing does not have to guess.
+hook-examples.md      200+ example sentences organized by mechanism,
+                      3 complete Hook Brief diagnosis examples,
+                      appendices (FAQ, tips, niche references)
+```
+
+The goal is not to generate more hook ideas. The goal is to make the opening logic explicit enough that downstream prompt writing does not have to guess.
 
 ## Repo Structure
 

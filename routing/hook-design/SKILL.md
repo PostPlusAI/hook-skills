@@ -34,7 +34,7 @@ Treat the hook as a mechanism choice, not a line-polishing exercise.
 
 Read [`hook-principles.md`](hook-principles.md).
 
-Use [`examples.md`](examples.md) to sanity-check whether the output is stable enough to hand off.
+Use [`hook-examples.md`](hook-examples.md) for reference examples, mechanism guidance, and output format diagnosis.
 
 ## Default Workflow
 
@@ -184,7 +184,7 @@ Do not let later skills guess the opening logic from vague taste words.
 ## More Files
 
 - [`hook-principles.md`](hook-principles.md)
-- [`examples.md`](examples.md)
+- [`hook-examples.md`](hook-examples.md) — reference with 200+ examples, mechanism guidance, and output format diagnosis
 
 ## Limitations
 
