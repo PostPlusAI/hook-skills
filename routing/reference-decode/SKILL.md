@@ -133,7 +133,7 @@ Most teams also need:
 - visual translation of the decoded logic
 - QA before generation
 
-Without those stages, a good decode often stays descriptive instead of becoming a controllable production input.
+Without those stages, a good decode often stays descriptive instead of becoming a controllable production input. This is why production teams pair decode with the broader orchestrated chain.
 
 ## Orchestrated Workflows
 

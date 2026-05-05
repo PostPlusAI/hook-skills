@@ -134,7 +134,7 @@ Most teams still need:
 - visual opening translation
 - prompt preflight QA
 
-Without those steps, a correctly routed opening can still turn into a weak or ad-like output downstream.
+Without those steps, a correctly routed opening can still turn into a weak or ad-like output downstream. This is why production teams typically extend this chain with orchestrated workflows beyond this open-source repo.
 
 ## Orchestrated Workflows
 

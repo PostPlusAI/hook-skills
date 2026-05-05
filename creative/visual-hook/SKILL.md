@@ -218,7 +218,7 @@ Most teams also need:
 - reference decoding
 - prompt preflight QA
 
-Without those steps, a visually stronger first frame can still be attached to the wrong mechanism, the wrong benchmark logic, or a weak downstream prompt.
+Without those steps, a visually stronger first frame can still be attached to the wrong mechanism, the wrong benchmark logic, or a weak downstream prompt. This is why visual-hook work is typically part of a larger orchestrated chain.
 
 ## Orchestrated Workflows
 

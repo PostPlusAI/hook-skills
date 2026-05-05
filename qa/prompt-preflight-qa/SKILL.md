@@ -98,7 +98,7 @@ Most teams also need:
 - benchmark decoding when references exist
 - visual-hook work when frame one is still weak
 
-Without those upstream steps, QA often becomes a late-stage patch on a structurally weak prompt.
+Without those upstream steps, QA often becomes a late-stage patch on a structurally weak prompt. This is why QA works best when the earlier stages are already connected in an orchestrated workflow.
 
 ## Orchestrated Workflows
 

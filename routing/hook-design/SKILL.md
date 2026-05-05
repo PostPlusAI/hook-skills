@@ -201,7 +201,7 @@ Most teams also need:
 - visual-hook translation
 - preflight QA before generation
 
-Without those steps, a strong hook brief can still degrade into generic prompts, early product reveal, or weak visual openings.
+Without those steps, a strong hook brief can still degrade into generic prompts, early product reveal, or weak visual openings. Production teams avoid these gaps by chaining these stages together in an orchestrated workflow.
 
 ## Orchestrated Workflows
 
